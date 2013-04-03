@@ -1,4 +1,4 @@
-[info] Updating {file:/D:/workplace/Lift/lift-lift_25_sbt-b9779cc/scala_29/lift_basic/}default-f49934...
+[info] Updating {file:/D:/workplace/Lift/lift_cookbook/}default-ad4d1f...
 [debug] post 1.3 ivy file: using exact as default matcher
 [debug] :: resolving dependencies :: net.liftweb#lift-2.5-starter-template_2.10;0.0.1
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container]
@@ -15,8 +15,6 @@
 [debug] sbt-chain: no namespace defined: using system
 [debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.0.xml
 [debug] post 1.3 ivy file: using exact as default matcher
-[debug] 	resolver not found: Maven Central => trying to use the one configured for org.scala-lang#scala-library;2.10.0
-[debug] 	configured resolver found for org.scala-lang#scala-library;2.10.0: sbt-chain: saving this data
 [debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.0.xml
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0
 [debug] sbt-chain: no latest strategy defined: using default
@@ -38,52 +36,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-webkit_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-webkit_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-webkit_2.10;2.5-M4 {compile=[default(compile)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-webkit_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] snapshots: no namespace defined: using system
-[debug] 	no ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-webkit_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] releases: no namespace defined: using system
-[debug] 	no ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp7502578802462655396sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-webkit_2.10;2.5-M4!lift-webkit_2.10.pom(pom.original) (1607ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\jars\lift-webkit_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\jars\lift-webkit_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-webkit_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-webkit_2.10\2.5-M4\jars\lift-webkit_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-webkit_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-webkit_2.10;2.5-M4; parsed=net.liftweb#lift-webkit_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-webkit_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-webkit_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-webkit_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-webkit_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-webkit_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-webkit_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-webkit_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-webkit_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-webkit_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-webkit_2.10;2.5-M4 [compile->runtime]
 [debug] loadData of net.liftweb#lift-webkit_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-webkit_2.10;2.5-M4 [compile->compile]
@@ -93,50 +55,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-util_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-util_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-util_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-util_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-util_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-util_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-util_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-util_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp6945743370072368110sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-util_2.10;2.5-M4!lift-util_2.10.pom(pom.original) (1634ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\jars\lift-util_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\jars\lift-util_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-util_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-util_2.10\2.5-M4\jars\lift-util_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-util_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-util_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-util_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-util_2.10;2.5-M4; parsed=net.liftweb#lift-util_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-util_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-util_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-util_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-util_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-util_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-util_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-util_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-util_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-util_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-webkit_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
 [debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-util_2.10;2.5-M4->net.liftweb#lift-actor_2.10;2.5-M4 [compile->master(*)]
@@ -144,50 +72,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-actor_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-actor_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-actor_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-actor_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-actor_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-actor_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-actor_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-actor_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp8351411148943929316sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-actor_2.10;2.5-M4!lift-actor_2.10.pom(pom.original) (1478ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\jars\lift-actor_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\jars\lift-actor_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-actor_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-actor_2.10\2.5-M4\jars\lift-actor_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-actor_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-actor_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-actor_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-actor_2.10;2.5-M4; parsed=net.liftweb#lift-actor_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-actor_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-actor_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-actor_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-actor_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-actor_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-actor_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-actor_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-actor_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-actor_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-util_2.10;2.5-M4->net.liftweb#lift-actor_2.10;2.5-M4 [compile->compile(*)]
 [debug] loadData of net.liftweb#lift-actor_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-actor_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
@@ -195,50 +89,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-common_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-common_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-common_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-common_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-common_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-common_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-common_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-common_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp2773826392381288060sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-common_2.10;2.5-M4!lift-common_2.10.pom(pom.original) (1197ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\jars\lift-common_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\jars\lift-common_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-common_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-common_2.10\2.5-M4\jars\lift-common_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-common_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-common_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-common_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-common_2.10;2.5-M4; parsed=net.liftweb#lift-common_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-common_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-common_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-common_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-common_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-common_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-common_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-common_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-common_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-common_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-actor_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
 [debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-common_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
@@ -246,50 +106,16 @@
 [debug] 	using sbt-chain to resolve org.specs2#specs2_2.10;1.12.3
 [info] Resolving org.specs2#specs2_2.10;1.12.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2_2.10;1.12.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for org.specs2#specs2_2.10;1.12.3: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
-[debug] 	no ivy file in cache for org.specs2#specs2_2.10;1.12.3: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\ivys\ivy.xml
-[debug] 	local: resource not reachable for org.specs2#specs2_2.10;1.12.3: res=C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.specs2#specs2_2.10;1.12.3
-[debug] 	no ivy file in cache for org.specs2#specs2_2.10;1.12.3: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 	snapshots: resource not reachable for org/specs2#specs2_2.10;1.12.3: res=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 	snapshots: no ivy file found for org.specs2#specs2_2.10;1.12.3
-[debug] 	no ivy file in cache for org.specs2#specs2_2.10;1.12.3: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 	releases: found md file for org.specs2#specs2_2.10;1.12.3
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom (1.12.3)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for org.specs2#specs2_2.10;1.12.3: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp5568805105679849624sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom
-[debug] 	[SUCCESSFUL ] org.specs2#specs2_2.10;1.12.3!specs2_2.10.pom(pom.original) (1545ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\jars\specs2_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\jars\specs2_2.10.jar
-[debug] 	local: resource not reachable for org.specs2#specs2_2.10;1.12.3: res=C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2_2.10\1.12.3\jars\specs2_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 	snapshots: resource not reachable for org/specs2#specs2_2.10;1.12.3: res=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] no source artifact found for org.specs2#specs2_2.10;1.12.3
-[debug] no javadoc artifact found for org.specs2#specs2_2.10;1.12.3
-[debug] 	default-cache: parsed downloaded md file for org.specs2#specs2_2.10;1.12.3; parsed=org.specs2#specs2_2.10;1.12.3
-[debug] 	checking org.specs2#specs2_2.10;1.12.3 from releases against [none]
-[debug] 	module revision kept as first found: org.specs2#specs2_2.10;1.12.3 from releases
-[debug] 	found org.specs2#specs2_2.10;1.12.3 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.specs2#specs2_2.10;1.12.3 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2_2.10;1.12.3
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
+[debug] 	found ivy file in cache for org.specs2#specs2_2.10;1.12.3 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml
+[debug] 	local: revision in cache: org.specs2#specs2_2.10;1.12.3
+[debug] 	checking org.specs2#specs2_2.10;1.12.3 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.specs2#specs2_2.10;1.12.3 from sbt-chain
+[debug] 	found org.specs2#specs2_2.10;1.12.3 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0-RC3 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]}
 [debug] == resolving dependencies net.liftweb#lift-common_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
 [debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
@@ -300,50 +126,16 @@
 [debug] 	using sbt-chain to resolve org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
 [info] Resolving org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
-[debug] 	no ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\ivys\ivy.xml
-[debug] 	local: resource not reachable for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: res=C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] 	no ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 	snapshots: resource not reachable for org/specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: res=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 	snapshots: no ivy file found for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] 	no ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 	releases: found md file for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom (6.0.1)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: tried C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp1506270883702055628sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom
-[debug] 	[SUCCESSFUL ] org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1!specs2-scalaz-core_2.10.0-RC3.pom(pom.original) (1118ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\jars\specs2-scalaz-core_2.10.0-RC3.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\jars\specs2-scalaz-core_2.10.0-RC3.jar
-[debug] 	local: resource not reachable for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: res=C:\Users\tran nguyen\.ivy2\local\org.specs2\specs2-scalaz-core_2.10.0-RC3\6.0.1\jars\specs2-scalaz-core_2.10.0-RC3.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 	snapshots: resource not reachable for org/specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1: res=http://oss.sonatype.org/content/repositories/snapshots/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] no source artifact found for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] no javadoc artifact found for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] 	default-cache: parsed downloaded md file for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1; parsed=org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
-[debug] 	checking org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 from releases against [none]
-[debug] 	module revision kept as first found: org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 from releases
-[debug] 	found org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
+[debug] 	found ivy file in cache for org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml
+[debug] 	local: revision in cache: org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1
+[debug] 	checking org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 from sbt-chain
+[debug] 	found org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0-RC3 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.specs2#specs2_2.10;1.12.3->org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 [compile->compile(*)]
 [debug] loadData of org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1 of rootConf=compile
@@ -392,14 +184,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
 [debug] post 1.3 ivy file: using exact as default matcher
-[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
+[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2
 [debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
-[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
+[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.7.2 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.2
-[debug] 	checking org.slf4j#slf4j-api;1.7.2 from releases against [none]
-[debug] 	module revision kept as first found: org.slf4j#slf4j-api;1.7.2 from releases
-[debug] 	found org.slf4j#slf4j-api;1.7.2 in releases
+[debug] 	checking org.slf4j#slf4j-api;1.7.2 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.slf4j#slf4j-api;1.7.2 from sbt-chain
+[debug] 	found org.slf4j#slf4j-api;1.7.2 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-common_2.10;2.5-M4->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)]
 [debug] loadData of org.slf4j#slf4j-api;1.7.2 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-actor_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
@@ -419,50 +211,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-json_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-json_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-json_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-json_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-json_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-json_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-json_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-json_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp2836263884956687126sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-json_2.10;2.5-M4!lift-json_2.10.pom(pom.original) (1496ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\jars\lift-json_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\jars\lift-json_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-json_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-json_2.10\2.5-M4\jars\lift-json_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-json_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-json_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-json_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-json_2.10;2.5-M4; parsed=net.liftweb#lift-json_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-json_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-json_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-json_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-json_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-json_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-json_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-json_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-json_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-json_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-util_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
 [debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-json_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
@@ -482,50 +240,16 @@
 [debug] 	using sbt-chain to resolve org.scala-lang#scalap;2.10.0
 [info] Resolving org.scala-lang#scalap;2.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for org.scala-lang#scalap;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
-[debug] 	no ivy file in cache for org.scala-lang#scalap;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\ivys\ivy.xml
-[debug] 	local: resource not reachable for org.scala-lang#scalap;2.10.0: res=C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scalap;2.10.0
-[debug] 	no ivy file in cache for org.scala-lang#scalap;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 	snapshots: resource not reachable for org/scala-lang#scalap;2.10.0: res=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 	snapshots: no ivy file found for org.scala-lang#scalap;2.10.0
-[debug] 	no ivy file in cache for org.scala-lang#scalap;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 	releases: found md file for org.scala-lang#scalap;2.10.0
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom (2.10.0)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for org.scala-lang#scalap;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp787495298566163134sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scalap;2.10.0!scalap.pom(pom.original) (1138ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\jars\scalap.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\jars\scalap.jar
-[debug] 	local: resource not reachable for org.scala-lang#scalap;2.10.0: res=C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scalap\2.10.0\jars\scalap.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 	snapshots: resource not reachable for org/scala-lang#scalap;2.10.0: res=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] no source artifact found for org.scala-lang#scalap;2.10.0
-[debug] no javadoc artifact found for org.scala-lang#scalap;2.10.0
-[debug] 	default-cache: parsed downloaded md file for org.scala-lang#scalap;2.10.0; parsed=org.scala-lang#scalap;2.10.0
-[debug] 	checking org.scala-lang#scalap;2.10.0 from releases against [none]
-[debug] 	module revision kept as first found: org.scala-lang#scalap;2.10.0 from releases
-[debug] 	found org.scala-lang#scalap;2.10.0 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scalap;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
+[debug] 	found ivy file in cache for org.scala-lang#scalap;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml
+[debug] 	local: revision in cache: org.scala-lang#scalap;2.10.0
+[debug] 	checking org.scala-lang#scalap;2.10.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scalap;2.10.0 from sbt-chain
+[debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-json_2.10;2.5-M4->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
 [debug] loadData of org.scala-lang#scalap;2.10.0 of rootConf=compile
 [debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)]
@@ -535,8 +259,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
 [debug] post 1.3 ivy file: using exact as default matcher
-[debug] 	resolver not found: Maven Central => trying to use the one configured for org.scala-lang#scala-compiler;2.10.0
-[debug] 	configured resolver found for org.scala-lang#scala-compiler;2.10.0: sbt-chain: saving this data
 [debug] 	found ivy file in cache for org.scala-lang#scala-compiler;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0
 [debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
@@ -560,8 +282,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
 [debug] post 1.3 ivy file: using exact as default matcher
-[debug] 	resolver not found: Maven Central => trying to use the one configured for org.scala-lang#scala-reflect;2.10.0
-[debug] 	configured resolver found for org.scala-lang#scala-reflect;2.10.0: sbt-chain: saving this data
 [debug] 	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
 [debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
@@ -879,50 +599,16 @@
 [debug] 	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0
 [info] Resolving org.scala-lang#scala-actors;2.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
-[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
-[debug] 	local: resource not reachable for org.scala-lang#scala-actors;2.10.0: res=C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-actors;2.10.0
-[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 	snapshots: resource not reachable for org/scala-lang#scala-actors;2.10.0: res=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 	snapshots: no ivy file found for org.scala-lang#scala-actors;2.10.0
-[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 	releases: found md file for org.scala-lang#scala-actors;2.10.0
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom (2.10.0)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for org.scala-lang#scala-actors;2.10.0: tried C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp1322400516322680497sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.pom(pom.original) (1117ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
-[debug] 	local: resource not reachable for org.scala-lang#scala-actors;2.10.0: res=C:\Users\tran nguyen\.ivy2\local\org.scala-lang\scala-actors\2.10.0\jars\scala-actors.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 	snapshots: resource not reachable for org/scala-lang#scala-actors;2.10.0: res=http://oss.sonatype.org/content/repositories/snapshots/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] no source artifact found for org.scala-lang#scala-actors;2.10.0
-[debug] no javadoc artifact found for org.scala-lang#scala-actors;2.10.0
-[debug] 	default-cache: parsed downloaded md file for org.scala-lang#scala-actors;2.10.0; parsed=org.scala-lang#scala-actors;2.10.0
-[debug] 	checking org.scala-lang#scala-actors;2.10.0 from releases against [none]
-[debug] 	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from releases
-[debug] 	found org.scala-lang#scala-actors;2.10.0 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-actors;2.10.0
+[debug] 	checking org.scala-lang#scala-actors;2.10.0 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from sbt-chain
+[debug] 	found org.scala-lang#scala-actors;2.10.0 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-webkit_2.10;2.5-M4->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)]
 [debug] loadData of org.scala-lang#scala-actors;2.10.0 of rootConf=compile
 [debug] == resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
@@ -978,47 +664,13 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-mapper_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-mapper_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-mapper_2.10;2.5-M4 {compile=[default(compile)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-mapper_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-mapper_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-mapper_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-mapper_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-mapper_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp7216889945876280540sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-mapper_2.10;2.5-M4!lift-mapper_2.10.pom(pom.original) (1171ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\jars\lift-mapper_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\jars\lift-mapper_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-mapper_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-mapper_2.10\2.5-M4\jars\lift-mapper_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-mapper_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-mapper_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-mapper_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-mapper_2.10;2.5-M4; parsed=net.liftweb#lift-mapper_2.10;2.5-M4
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-mapper_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-mapper_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-mapper_2.10;2.5-M4
 [debug] 	checking net.liftweb#lift-mapper_2.10;2.5-M4 from releases against [none]
 [debug] 	module revision kept as first found: net.liftweb#lift-mapper_2.10;2.5-M4 from releases
 [debug] 	found net.liftweb#lift-mapper_2.10;2.5-M4 in releases
@@ -1031,47 +683,13 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-db_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-db_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-db_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-db_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-db_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-db_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-db_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-db_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp3971635625777727033sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-db_2.10;2.5-M4!lift-db_2.10.pom(pom.original) (1150ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\jars\lift-db_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\jars\lift-db_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-db_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-db_2.10\2.5-M4\jars\lift-db_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-db_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-db_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-db_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-db_2.10;2.5-M4; parsed=net.liftweb#lift-db_2.10;2.5-M4
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-db_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-db_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-db_2.10;2.5-M4
 [debug] 	checking net.liftweb#lift-db_2.10;2.5-M4 from releases against [none]
 [debug] 	module revision kept as first found: net.liftweb#lift-db_2.10;2.5-M4 from releases
 [debug] 	found net.liftweb#lift-db_2.10;2.5-M4 in releases
@@ -1131,47 +749,13 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-proto_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-proto_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-proto_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-proto_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-proto_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-proto_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-proto_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-proto_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp9196479299945792861sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-proto_2.10;2.5-M4!lift-proto_2.10.pom(pom.original) (1211ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\jars\lift-proto_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\jars\lift-proto_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-proto_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-proto_2.10\2.5-M4\jars\lift-proto_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-proto_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-proto_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-proto_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-proto_2.10;2.5-M4; parsed=net.liftweb#lift-proto_2.10;2.5-M4
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-proto_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-proto_2.10;2.5-M4
 [debug] 	checking net.liftweb#lift-proto_2.10;2.5-M4 from releases against [none]
 [debug] 	module revision kept as first found: net.liftweb#lift-proto_2.10;2.5-M4 from releases
 [debug] 	found net.liftweb#lift-proto_2.10;2.5-M4 in releases
@@ -1260,50 +844,16 @@
 [debug] 	using sbt-chain to resolve net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
 [info] Resolving net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 {compile=[default(compile)]}
-[debug] 	no ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: tried C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
-[debug] 	no ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: tried C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: res=C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] 	no ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: tried C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 	snapshots: resource not reachable for net/liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 	snapshots: no ivy file found for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] 	no ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: tried C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 	releases: found md file for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom (2.5-M4-2.1)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: tried C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp1752268452510463156sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom
-[debug] 	[SUCCESSFUL ] net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1!lift-jquery-module_2.10.pom(pom.original) (1251ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\jars\lift-jquery-module_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\jars\lift-jquery-module_2.10.jar
-[debug] 	local: resource not reachable for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: res=C:\Users\tran nguyen\.ivy2\local\net.liftmodules\lift-jquery-module_2.10\2.5-M4-2.1\jars\lift-jquery-module_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 	snapshots: resource not reachable for net/liftmodules#lift-jquery-module_2.10;2.5-M4-2.1: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] no source artifact found for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] no javadoc artifact found for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] 	default-cache: parsed downloaded md file for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1; parsed=net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
-[debug] 	checking net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 from releases against [none]
-[debug] 	module revision kept as first found: net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 from releases
-[debug] 	found net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
+[debug] sbt-chain: module revision found in cache: net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
+[debug] 	found ivy file in cache for net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml
+[debug] 	local: revision in cache: net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1
+[debug] 	checking net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 from sbt-chain
+[debug] 	found net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 in sbt-chain
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 [compile->runtime]
 [debug] loadData of net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1 [compile->compile]
@@ -1325,50 +875,16 @@
 [debug] 	using sbt-chain to resolve net.liftweb#lift-testkit_2.10;2.5-M4
 [info] Resolving net.liftweb#lift-testkit_2.10;2.5-M4 ...
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-testkit_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 	no ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
-[debug] 	no ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: resource not reachable for net.liftweb#lift-testkit_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\ivys\ivy.xml
-[debug] 	local: no ivy file found for net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-testkit_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 	snapshots: no ivy file found for net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] 	no ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 	releases: found md file for net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] 		=> http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom (2.5-M4)
-[debug] 	parser = sbt.CustomPomParser@1e8ed94
-[debug] 	no ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4: tried C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
-[debug] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml.original.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp5433275136599749022sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom
-[debug] 	[SUCCESSFUL ] net.liftweb#lift-testkit_2.10;2.5-M4!lift-testkit_2.10.pom(pom.original) (1135ms)
-[debug] 	 trying C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\jars\lift-testkit_2.10.jar
-[debug] 		tried C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\jars\lift-testkit_2.10.jar
-[debug] 	local: resource not reachable for net.liftweb#lift-testkit_2.10;2.5-M4: res=C:\Users\tran nguyen\.ivy2\local\net.liftweb\lift-testkit_2.10\2.5-M4\jars\lift-testkit_2.10.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] HTTP response status: 404 url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] CLIENT ERROR: Item not found for request "ResourceStoreRequest(requestPath="/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar")" in repository ""Snapshots" [id=snapshots]"! url=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 	snapshots: resource not reachable for net/liftweb#lift-testkit_2.10;2.5-M4: res=http://oss.sonatype.org/content/repositories/snapshots/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] no source artifact found for net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] no javadoc artifact found for net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] 	default-cache: parsed downloaded md file for net.liftweb#lift-testkit_2.10;2.5-M4; parsed=net.liftweb#lift-testkit_2.10;2.5-M4
-[debug] 	checking net.liftweb#lift-testkit_2.10;2.5-M4 from releases against [none]
-[debug] 	module revision kept as first found: net.liftweb#lift-testkit_2.10;2.5-M4 from releases
-[debug] 	found net.liftweb#lift-testkit_2.10;2.5-M4 in releases
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-testkit_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-testkit_2.10;2.5-M4 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-testkit_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-testkit_2.10;2.5-M4 from sbt-chain against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-testkit_2.10;2.5-M4 from sbt-chain
+[debug] 	found net.liftweb#lift-testkit_2.10;2.5-M4 in sbt-chain
 [debug] == resolving dependencies net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1->net.liftweb#lift-testkit_2.10;2.5-M4 [compile->compile(*)]
 [debug] loadData of net.liftweb#lift-testkit_2.10;2.5-M4 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-testkit_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
@@ -6096,7 +5612,7 @@
 [debug] org.scala-lang#scala-compiler;2.10.0 in runtime: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in runtime-internal: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in compile-internal: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
-[debug] 	resolved ivy file produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\net.liftweb\lift-2.5-starter-template_2.10\0.0.1\resolved.xml.xml
+[debug] 	resolved ivy file produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\net.liftweb\lift-2.5-starter-template_2.10\0.0.1\resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] org.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
 [debug] org.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
@@ -6110,89 +5626,17 @@
 [debug] org.scala-lang#scala-library;2.10.0 in runtime: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
 [debug] org.scala-lang#scala-library;2.10.0 in runtime-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
 [debug] org.scala-lang#scala-library;2.10.0 in compile-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\jars\lift-webkit_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp7660582974820805135sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-webkit_2.10;2.5-M4!lift-webkit_2.10.jar (16329ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\jars\lift-mapper_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp458993398720120086sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-mapper_2.10;2.5-M4!lift-mapper_2.10.jar (4200ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\jars\lift-jquery-module_2.10-2.5-M4-2.1.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp8138117593818689963sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar
-[info] 	[SUCCESSFUL ] net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1!lift-jquery-module_2.10.jar (2120ms)
+[debug] 	[NOT REQUIRED] net.liftweb#lift-webkit_2.10;2.5-M4!lift-webkit_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-mapper_2.10;2.5-M4!lift-mapper_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1!lift-jquery-module_2.10.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.6!logback-classic.jar
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\jars\lift-util_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp6897732303349734427sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-util_2.10;2.5-M4!lift-util_2.10.jar (4926ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\jars\specs2_2.10-1.12.3.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp2545654237398756303sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2_2.10;1.12.3!specs2_2.10.jar (16861ms)
+[debug] 	[NOT REQUIRED] net.liftweb#lift-util_2.10;2.5-M4!lift-util_2.10.jar
+[debug] 	[NOT REQUIRED] org.specs2#specs2_2.10;1.12.3!specs2_2.10.jar
 [debug] 	[NOT REQUIRED] commons-fileupload#commons-fileupload;1.2.2!commons-fileupload.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.0.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp5255895632523790391sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-actors;2.10.0!scala-actors.jar (2131ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\jars\lift-actor_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp2170560643579231255sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-actor_2.10;2.5-M4!lift-actor_2.10.jar (1338ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp1288521776606184648sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-json_2.10;2.5-M4!lift-json_2.10.jar (2230ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-actor_2.10;2.5-M4!lift-actor_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-json_2.10;2.5-M4!lift-json_2.10.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in test-internal: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in test: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.10.0 in compile: excluding org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
@@ -6210,70 +5654,16 @@
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar
 [debug] 	[NOT REQUIRED] javax.mail#mail;1.4.4!mail.jar
 [debug] 	[NOT REQUIRED] nu.validator.htmlparser#htmlparser;1.4!htmlparser.jar(bundle)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\jars\lift-common_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp6847803664869019967sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-common_2.10;2.5-M4!lift-common_2.10.jar (1585ms)
+[debug] 	[NOT REQUIRED] net.liftweb#lift-common_2.10;2.5-M4!lift-common_2.10.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\jars\specs2-scalaz-core_2.10.0-RC3-6.0.1.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp135981467457017498sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1!specs2-scalaz-core_2.10.0-RC3.jar (12424ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.0.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp8714056129465429920sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scalap;2.10.0!scalap.jar (4922ms)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-scalaz-core_2.10.0-RC3;6.0.1!specs2-scalaz-core_2.10.0-RC3.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar
 [debug] 	[NOT REQUIRED] javax.activation#activation;1.1!activation.jar
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\jars\lift-db_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp7602650405998149853sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-db_2.10;2.5-M4!lift-db_2.10.jar (1944ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\jars\lift-proto_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp7972879967079117610sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-proto_2.10;2.5-M4!lift-proto_2.10.jar (4003ms)
-[debug] 	 trying http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[info] downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar ...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[debug] 		to C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\jars\lift-testkit_2.10-2.5-M4.jar.part
-[debug] sha1 file found for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar: checking...
-[debug] 	releases: downloading http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar.sha1
-[debug] 		to C:\Users\TRANNG~1\AppData\Local\Temp\ivytmp3479655181193956955sha1
-[debug] sha1 OK for http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar
-[info] 	[SUCCESSFUL ] net.liftweb#lift-testkit_2.10;2.5-M4!lift-testkit_2.10.jar (1977ms)
+[debug] 	[NOT REQUIRED] net.liftweb#lift-db_2.10;2.5-M4!lift-db_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-proto_2.10;2.5-M4!lift-proto_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-testkit_2.10;2.5-M4!lift-testkit_2.10.jar
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.6!logback-core.jar
@@ -6287,7 +5677,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.7.v20120910!jetty-continuation.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar
-[debug] :: resolution report :: resolve 40731ms :: artifacts dl 77277ms
+[debug] :: resolution report :: resolve 3464ms :: artifacts dl 251ms
 [debug] Nbr of module to sort : 31
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -6419,7 +5809,7 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-resolved.xml
 [debug] Nbr of module to sort : 31
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -6551,7 +5941,7 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-resolved.xml
 [debug] Nbr of module to sort : 41
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -6717,11 +6107,11 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 test produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\test-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 test produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\test-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 provided produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\provided-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 provided produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\provided-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 optional produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\optional-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 optional produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\optional-resolved.xml
 [debug] Nbr of module to sort : 31
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -6853,7 +6243,7 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-internal-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile-internal produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-internal-resolved.xml
 [debug] Nbr of module to sort : 31
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -6985,7 +6375,7 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-internal-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime-internal produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-internal-resolved.xml
 [debug] Nbr of module to sort : 41
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
@@ -7151,15 +6541,15 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 test-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\test-internal-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 test-internal produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\test-internal-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 plugin produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\plugin-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 plugin produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\plugin-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 sources produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\sources-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 sources produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\sources-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 docs produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\docs-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 docs produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\docs-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 pom produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\pom-resolved.xml
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 pom produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\pom-resolved.xml
 [debug] Nbr of module to sort : 10
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
@@ -7194,6 +6584,6 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-continuation;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
-[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 container produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\container-resolved.xml
-[debug] 	resolve done (40731ms resolve - 77277ms download)
+[debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 container produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\container-resolved.xml
+[debug] 	resolve done (3464ms resolve - 251ms download)
 [info] Done updating.

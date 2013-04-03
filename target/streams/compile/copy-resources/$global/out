@@ -1,4 +1,4 @@
 [debug] Copy resource mappings: 
-[debug] 	(D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\src\main\resources\logback.xml,D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\scala-2.10\classes\logback.xml)
-[debug] 	(D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\src\main\resources\props,D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\scala-2.10\classes\props)
-[debug] 	(D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\src\main\resources\props\default.props,D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\target\scala-2.10\classes\props\default.props)
+[debug] 	(D:\workplace\Lift\lift_cookbook\src\main\resources\logback.xml,D:\workplace\Lift\lift_cookbook\target\scala-2.10\classes\logback.xml)
+[debug] 	(D:\workplace\Lift\lift_cookbook\src\main\resources\props,D:\workplace\Lift\lift_cookbook\target\scala-2.10\classes\props)
+[debug] 	(D:\workplace\Lift\lift_cookbook\src\main\resources\props\default.props,D:\workplace\Lift\lift_cookbook\target\scala-2.10\classes\props\default.props)

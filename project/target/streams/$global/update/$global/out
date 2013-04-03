@@ -1,13 +1,13 @@
-[info] Updating {file:/D:/workplace/Lift/lift-lift_25_sbt-b9779cc/scala_29/lift_basic/project/}default-9ea326...
+[info] Updating {file:/D:/workplace/Lift/lift_cookbook/project/}default-e17433...
 [debug] post 1.3 ivy file: using exact as default matcher
-[debug] :: resolving dependencies :: default#default-9ea326;0.1-SNAPSHOT
+[debug] :: resolving dependencies :: default#default-e17433;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=compile
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile
 [debug] 	using sbt-chain to resolve com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1
 [info] Resolving com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 ...
@@ -25,9 +25,9 @@
 [debug] 	checking com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 from public against [none]
 [debug] 	module revision kept as first found: com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 from public
 [debug] 	found com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 in public
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
 [debug] loadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile
@@ -77,9 +77,9 @@
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [runtime->compile]
 [debug] loadData of com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 of rootConf=compile
 [debug] compile is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile
 [debug] 	using sbt-chain to resolve com.github.mpeltonen#sbt-idea;1.2.0
 [info] Resolving com.github.mpeltonen#sbt-idea;1.2.0 ...
@@ -94,9 +94,9 @@
 [debug] 	checking com.github.mpeltonen#sbt-idea;1.2.0 from public against [none]
 [debug] 	module revision kept as first found: com.github.mpeltonen#sbt-idea;1.2.0 from public
 [debug] 	found com.github.mpeltonen#sbt-idea;1.2.0 in public
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=compile
@@ -119,9 +119,9 @@
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=compile
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile
 [debug] 	using sbt-chain to resolve com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 ...
@@ -185,17 +185,17 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master]
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [runtime]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
@@ -220,15 +220,15 @@
 [debug] == resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
@@ -242,10 +242,10 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=runtime
@@ -273,20 +273,20 @@
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [test]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [runtime]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [test]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
@@ -311,15 +311,15 @@
 [debug] == resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
@@ -333,10 +333,10 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=test
@@ -364,9 +364,9 @@
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [provided]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=provided
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=provided
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
 [debug] loadData of org.scala-sbt#sbt;0.12.1 of rootConf=provided
 [debug] 	using sbt-chain to resolve org.scala-sbt#sbt;0.12.1
 [info] Resolving org.scala-sbt#sbt;0.12.1 ...
@@ -1665,33 +1665,33 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided
 [debug] provided is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided
 [debug] provided is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided
 [debug] provided is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided
 [debug] provided is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided
 [debug] provided is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [optional]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=optional
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=optional
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile-internal]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=compile-internal
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile-internal]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
@@ -1716,15 +1716,15 @@
 [debug] == resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
@@ -1738,10 +1738,10 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=compile-internal
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=compile-internal
@@ -1768,13 +1768,13 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master]
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [optional]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [provided]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=compile-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
 [debug] loadData of org.scala-sbt#sbt;0.12.1 of rootConf=compile-internal
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-sbt#main;0.12.1 [compile->default(compile)]
 [debug] loadData of org.scala-sbt#main;0.12.1 of rootConf=compile-internal
@@ -2584,33 +2584,33 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [runtime-internal]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime-internal
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [runtime]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [runtime-internal]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
@@ -2635,15 +2635,15 @@
 [debug] == resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
@@ -2657,10 +2657,10 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=runtime-internal
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=runtime-internal
@@ -2687,27 +2687,27 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master]
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [optional]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=runtime-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [test-internal]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [test]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [test-internal]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [test]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [runtime]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [runtime]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [compile]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [compile]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->default(compile)]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->runtime]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->compile]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1->com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 [compile->master(*)]
@@ -2732,15 +2732,15 @@
 [debug] == resolving dependencies com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1->org.scala-lang#scala-library;2.9.2 [runtime->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 [compile->master]
 [debug] loadData of com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->default(compile)]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test-internal
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->runtime]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->compile]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [compile->master(*)]
@@ -2754,10 +2754,10 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.2.0->commons-io#commons-io;2.0.1 [runtime->compile]
 [debug] loadData of commons-io#commons-io;2.0.1 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.2.0 [compile->master]
 [debug] loadData of com.github.mpeltonen#sbt-idea;1.2.0 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0 of rootConf=test-internal
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0->com.typesafe.sbteclipse#sbteclipse-core;2.1.0 [compile->default(compile)]
 [debug] loadData of com.typesafe.sbteclipse#sbteclipse-core;2.1.0 of rootConf=test-internal
@@ -2784,13 +2784,13 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.1.0->org.scalaz#scalaz-core_2.9.2;6.0.4 [compile->master]
 [debug] loadData of org.scalaz#scalaz-core_2.9.2;6.0.4 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [optional]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [optional]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [provided]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=test-internal
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [provided]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.1 [provided->default(compile)]
 [debug] loadData of org.scala-sbt#sbt;0.12.1 of rootConf=test-internal
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-sbt#main;0.12.1 [compile->default(compile)]
 [debug] loadData of org.scala-sbt#main;0.12.1 of rootConf=test-internal
@@ -3600,30 +3600,30 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.1->org.scala-lang#scala-library;2.9.2 [compile->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
-[debug] == resolving dependencies default#default-9ea326;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-e17433;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] loadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [plugin]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=plugin
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [plugin]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=plugin
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [sources]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=sources
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [sources]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=sources
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [docs]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=docs
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [docs]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=docs
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#default-9ea326;0.1-SNAPSHOT [pom]
-[debug] loadData of default#default-9ea326;0.1-SNAPSHOT of rootConf=pom
+[debug] == resolving dependencies for default#default-e17433;0.1-SNAPSHOT [pom]
+[debug] loadData of default#default-e17433;0.1-SNAPSHOT of rootConf=pom
 [debug] Nbr of module to sort : 48
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Non matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1
@@ -3897,7 +3897,7 @@
 [debug] org.scala-lang#scala-compiler;2.9.2 in test-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.9.2 in provided: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar
 [debug] org.scala-lang#scala-compiler;2.9.2 in compile-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar
-[debug] 	resolved ivy file produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\default\default-9ea326\scala_2.9.2\sbt_0.12\0.1-SNAPSHOT\resolved.xml.xml
+[debug] 	resolved ivy file produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\default\default-e17433\scala_2.9.2\sbt_0.12\0.1-SNAPSHOT\resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1!xsbt-web-plugin_2.9.2.jar
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.2.0!sbt-idea.jar
@@ -3966,7 +3966,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.12.1!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.1!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
-[debug] :: resolution report :: resolve 4567ms :: artifacts dl 96ms
+[debug] :: resolution report :: resolve 4084ms :: artifacts dl 153ms
 [debug] Nbr of module to sort : 8
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Sort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2
@@ -3994,7 +3994,7 @@
 [debug] Sort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0
 [debug] Module descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0
 [debug] Module descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT compile produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\compile-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT compile produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\compile-resolved.xml
 [debug] Nbr of module to sort : 8
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Sort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2
@@ -4022,7 +4022,7 @@
 [debug] Sort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0
 [debug] Module descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0
 [debug] Module descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT runtime produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\runtime-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT runtime produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\runtime-resolved.xml
 [debug] Nbr of module to sort : 8
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Sort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2
@@ -4050,7 +4050,7 @@
 [debug] Sort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0
 [debug] Module descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0
 [debug] Module descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT test produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\test-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT test produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\test-resolved.xml
 [debug] Nbr of module to sort : 41
 [debug] Sort dependencies of : org.scala-sbt#sbt;0.12.1 / Number of dependencies = 6
 [debug] Sort dependencies of : org.scala-sbt#main;0.12.1 / Number of dependencies = 12
@@ -4285,9 +4285,9 @@
 [debug] Module descriptor is processed : org.scala-sbt#compiler-interface;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT provided produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\provided-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT provided produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\provided-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT optional produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\optional-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT optional produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\optional-resolved.xml
 [debug] Nbr of module to sort : 48
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Non matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1
@@ -4551,7 +4551,7 @@
 [debug] Module descriptor is processed : org.scala-sbt#compiler-interface;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT compile-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\compile-internal-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT compile-internal produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\compile-internal-resolved.xml
 [debug] Nbr of module to sort : 8
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Sort dependencies of : com.github.siasia#plugin-commons_2.9.2;0.12.0-0.1.1 / Number of dependencies = 2
@@ -4579,7 +4579,7 @@
 [debug] Sort done for : com.typesafe.sbteclipse#sbteclipse-plugin;2.1.0
 [debug] Module descriptor is processed : com.typesafe.sbteclipse#sbteclipse-core;2.1.0
 [debug] Module descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT runtime-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\runtime-internal-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT runtime-internal produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\runtime-internal-resolved.xml
 [debug] Nbr of module to sort : 48
 [debug] Sort dependencies of : com.github.siasia#xsbt-web-plugin_2.9.2;0.12.0-0.2.11.1 / Number of dependencies = 7
 [debug] Non matching revision detected when sorting.  com.github.siasia#xsbt-web-plugin_2.9.2 depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.1
@@ -4843,14 +4843,14 @@
 [debug] Module descriptor is processed : org.scala-sbt#compiler-interface;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.1
 [debug] Module descriptor is processed : org.scala-sbt#precompiled-2_10_0-m7;0.12.1
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT test-internal produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\test-internal-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT test-internal produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\test-internal-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT plugin produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\plugin-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT plugin produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\plugin-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT sources produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\sources-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT sources produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\sources-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT docs produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\docs-resolved.xml
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT docs produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\docs-resolved.xml
 [debug] Nbr of module to sort : 0
-[debug] 	report for default#default-9ea326;0.1-SNAPSHOT pom produced in D:\workplace\Lift\lift-lift_25_sbt-b9779cc\scala_29\lift_basic\project\target\resolution-cache\reports\default-default-9ea326\pom-resolved.xml
-[debug] 	resolve done (4567ms resolve - 96ms download)
+[debug] 	report for default#default-e17433;0.1-SNAPSHOT pom produced in D:\workplace\Lift\lift_cookbook\project\target\resolution-cache\reports\default-default-e17433\pom-resolved.xml
+[debug] 	resolve done (4084ms resolve - 153ms download)
 [info] Done updating.

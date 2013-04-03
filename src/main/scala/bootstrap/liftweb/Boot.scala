@@ -14,6 +14,8 @@ import mapper._
 import code.model._
 import net.liftmodules.JQueryModule
 
+import code.rest.IssuesService
+import code.rest._
 
 /**
  * A class that's instantiated early and run.  It allows the application
@@ -41,6 +43,10 @@ class Boot {
     // where to search snippet
     LiftRules.addToPackages("code")
 
+	IssuesService.init()
+	Reunite.init()
+	Upload.init()
+	QuotationsAPI.init()
     // Build SiteMap
     def sitemap = SiteMap(
       Menu.i("Home") / "index" >> User.AddUserMenusAfter, // the simple way to declare a menu

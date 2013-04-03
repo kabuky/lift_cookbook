@@ -7,7 +7,7 @@
 		revision="0.0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20130123173928"/>
+		date="20130402103505"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-webapp">
 			<revision name="8.1.7.v20120910" status="release" pubdate="20120911031310" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
@@ -160,76 +160,75 @@
 			</revision>
 		</module>
 		<module organisation="net.liftmodules" name="lift-jquery-module_2.10">
-			<revision name="2.5-M4-2.1" status="release" pubdate="20130113072334" resolver="releases" artresolver="releases" homepage="https://github.com/karma4u101/lift-jquery-module" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+			<revision name="2.5-M4-2.1" status="release" pubdate="20130113072334" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/karma4u101/lift-jquery-module" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
 				<license name="The Apache Software License, Version 2.0" url="http://maven.apache.org/ref/2.1.0/maven-profile/license.html"/>
-				<metadata-artifact status="successful" details="" size="2718" time="1251" location="C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3441" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\ivy-2.5-M4-2.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.5-M4-2.1" rev-constraint-default="2.5-M4-2.1" rev-constraint-dynamic="2.5-M4-2.1" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="lift-jquery-module_2.10" type="jar" ext="jar" status="successful" details="" size="461763" time="2120" location="C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\jars\lift-jquery-module_2.10-2.5-M4-2.1.jar">
+					<artifact name="lift-jquery-module_2.10" type="jar" ext="jar" status="no" details="" size="461763" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftmodules\lift-jquery-module_2.10\jars\lift-jquery-module_2.10-2.5-M4-2.1.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftmodules/lift-jquery-module_2.10/2.5-M4-2.1/lift-jquery-module_2.10-2.5-M4-2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-mapper_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113035443" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+			<revision name="2.5-M4" status="release" pubdate="20130113035443" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7474" time="1171" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3327" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
 				<artifacts>
-					<artifact name="lift-mapper_2.10" type="jar" ext="jar" status="successful" details="" size="1433938" time="4200" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\jars\lift-mapper_2.10-2.5-M4.jar">
+					<artifact name="lift-mapper_2.10" type="jar" ext="jar" status="no" details="" size="1433938" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mapper_2.10\jars\lift-mapper_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mapper_2.10/2.5-M4/lift-mapper_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-proto_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113035147" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+			<revision name="2.5-M4" status="release" pubdate="20130113035147" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6854" time="1211" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="2960" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-proto_2.10" type="jar" ext="jar" status="successful" details="" size="243931" time="4003" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\jars\lift-proto_2.10-2.5-M4.jar">
+					<artifact name="lift-proto_2.10" type="jar" ext="jar" status="no" details="" size="243931" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\jars\lift-proto_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-db_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034654" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+			<revision name="2.5-M4" status="release" pubdate="20130113034654" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7260" time="1150" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3204" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-db_2.10" type="jar" ext="jar" status="successful" details="" size="333290" time="1944" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\jars\lift-db_2.10-2.5-M4.jar">
+					<artifact name="lift-db_2.10" type="jar" ext="jar" status="no" details="" size="333290" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-db_2.10\jars\lift-db_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-db_2.10/2.5-M4/lift-db_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-webkit_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034846" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+			<revision name="2.5-M4" status="release" pubdate="20130113034846" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8355" time="1607" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3889" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftmodules" name="lift-jquery-module_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4-2.1"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
 				<caller organisation="net.liftweb" name="lift-proto_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-webkit_2.10" type="jar" ext="jar" status="successful" details="" size="5933030" time="16329" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\jars\lift-webkit_2.10-2.5-M4.jar">
+					<artifact name="lift-webkit_2.10" type="jar" ext="jar" status="no" details="" size="5933030" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-webkit_2.10\jars\lift-webkit_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-webkit_2.10/2.5-M4/lift-webkit_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-actors">
-			<revision name="2.10.0" status="release" pubdate="20121220153006" resolver="releases" artresolver="releases" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
-				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
-         "/>
-				<metadata-artifact status="successful" details="" size="1856" time="1117" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom"/>
+			<revision name="2.10.0" status="release" pubdate="20121220153006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2580" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.pom"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="scala-actors" type="jar" ext="jar" status="successful" details="" size="451307" time="2131" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.0.jar">
+					<artifact name="scala-actors" type="jar" ext="jar" status="no" details="" size="451307" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scala-actors\jars\scala-actors-2.10.0.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scala-actors/2.10.0/scala-actors-2.10.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -247,12 +246,12 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-testkit_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034414" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+			<revision name="2.5-M4" status="release" pubdate="20130113034414" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7299" time="1135" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3266" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftmodules" name="lift-jquery-module_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4-2.1"/>
 				<artifacts>
-					<artifact name="lift-testkit_2.10" type="jar" ext="jar" status="successful" details="" size="221079" time="1977" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\jars\lift-testkit_2.10-2.5-M4.jar">
+					<artifact name="lift-testkit_2.10" type="jar" ext="jar" status="no" details="" size="221079" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-testkit_2.10\jars\lift-testkit_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-testkit_2.10/2.5-M4/lift-testkit_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
@@ -283,14 +282,14 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-util_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034231" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+			<revision name="2.5-M4" status="release" pubdate="20130113034231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8508" time="1634" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="4049" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-testkit_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-util_2.10" type="jar" ext="jar" status="successful" details="" size="1828614" time="4926" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\jars\lift-util_2.10-2.5-M4.jar">
+					<artifact name="lift-util_2.10" type="jar" ext="jar" status="no" details="" size="1828614" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\jars\lift-util_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
@@ -375,12 +374,12 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-json_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034047" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+			<revision name="2.5-M4" status="release" pubdate="20130113034047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7067" time="1496" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-json_2.10" type="jar" ext="jar" status="successful" details="" size="486482" time="2230" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-2.5-M4.jar">
+					<artifact name="lift-json_2.10" type="jar" ext="jar" status="no" details="" size="486482" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
@@ -398,13 +397,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scalap">
-			<revision name="2.10.0" status="release" pubdate="20121220153017" resolver="releases" artresolver="releases" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
-				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
-			"/>
-				<metadata-artifact status="successful" details="" size="1805" time="1138" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom"/>
+			<revision name="2.10.0" status="release" pubdate="20121220153017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2550" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.pom"/>
 				<caller organisation="net.liftweb" name="lift-json_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="scalap" type="jar" ext="jar" status="successful" details="" size="855012" time="4922" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.0.jar">
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="855012" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.10.0.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -433,31 +431,31 @@
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-actor_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034104" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+			<revision name="2.5-M4" status="release" pubdate="20130113034104" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6856" time="1478" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="2962" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-actor_2.10" type="jar" ext="jar" status="successful" details="" size="89868" time="1338" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\jars\lift-actor_2.10-2.5-M4.jar">
+					<artifact name="lift-actor_2.10" type="jar" ext="jar" status="no" details="" size="89868" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-actor_2.10\jars\lift-actor_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-actor_2.10/2.5-M4/lift-actor_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.liftweb" name="lift-common_2.10">
-			<revision name="2.5-M4" status="release" pubdate="20130113034009" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+			<revision name="2.5-M4" status="release" pubdate="20130113034009" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7289" time="1197" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom"/>
+				<metadata-artifact status="no" details="" size="3259" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="lift-common_2.10" type="jar" ext="jar" status="successful" details="" size="188323" time="1585" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\jars\lift-common_2.10-2.5-M4.jar">
+					<artifact name="lift-common_2.10" type="jar" ext="jar" status="no" details="" size="188323" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\jars\lift-common_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.2" status="release" pubdate="20121012025524" resolver="releases" artresolver="releases" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+			<revision name="1.7.2" status="release" pubdate="20121012025524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
 				<metadata-artifact status="no" details="" size="4514" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
 				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="1.0.6"/>
 				<caller organisation="net.liftweb" name="lift-common_2.10" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.5-M4"/>
@@ -475,9 +473,9 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2_2.10">
-			<revision name="1.12.3" status="release" pubdate="20121122084604" resolver="releases" artresolver="releases" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="5">
+			<revision name="1.12.3" status="release" pubdate="20121122084604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="5">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="3342" time="1545" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom"/>
+				<metadata-artifact status="no" details="" size="3621" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\ivy-1.12.3.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.pom"/>
 				<caller organisation="net.liftweb" name="lift-json_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="1.12.1" rev-constraint-default="1.12.1" rev-constraint-dynamic="1.12.1" callerrev="0.0.1"/>
 				<caller organisation="net.liftweb" name="lift-testkit_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
@@ -489,7 +487,7 @@
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<artifacts>
-					<artifact name="specs2_2.10" type="jar" ext="jar" status="successful" details="" size="6673069" time="16861" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\jars\specs2_2.10-1.12.3.jar">
+					<artifact name="specs2_2.10" type="jar" ext="jar" status="no" details="" size="6673069" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\jars\specs2_2.10-1.12.3.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -502,12 +500,12 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-scalaz-core_2.10.0-RC3">
-			<revision name="6.0.1" status="release" pubdate="20121122083727" resolver="releases" artresolver="releases" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+			<revision name="6.0.1" status="release" pubdate="20121122083727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1459" time="1118" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml" searched="true" original-local-location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml.original" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2581" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.pom"/>
 				<caller organisation="org.specs2" name="specs2_2.10" conf="compile, runtime" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="1.12.3"/>
 				<artifacts>
-					<artifact name="specs2-scalaz-core_2.10.0-RC3" type="jar" ext="jar" status="successful" details="" size="4475500" time="12424" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\jars\specs2-scalaz-core_2.10.0-RC3-6.0.1.jar">
+					<artifact name="specs2-scalaz-core_2.10.0-RC3" type="jar" ext="jar" status="no" details="" size="4475500" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2-scalaz-core_2.10.0-RC3\jars\specs2-scalaz-core_2.10.0-RC3-6.0.1.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2-scalaz-core_2.10.0-RC3/6.0.1/specs2-scalaz-core_2.10.0-RC3-6.0.1.jar"/>
 					</artifact>
 				</artifacts>
