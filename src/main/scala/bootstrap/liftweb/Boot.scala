@@ -10,12 +10,14 @@ import js.jquery.JQueryArtifacts
 import sitemap._
 import Loc._
 import mapper._
-
+import java.net.URI
 import code.model._
 import net.liftmodules.JQueryModule
 
 import code.rest.IssuesService
 import code.rest._
+import mongodb.{DefaultMongoIdentifier, MongoDB, MongoIdentifier}
+import com.mongodb.{ServerAddress, Mongo}
 
 /**
  * A class that's instantiated early and run.  It allows the application
@@ -47,6 +49,15 @@ class Boot {
 	Reunite.init()
 	Upload.init()
 	QuotationsAPI.init()
+	
+	// Init MongoDb
+	//val server = new ServerAddress("127.0.0.1", 20717)
+	//MongoDB.defineDb(DefaultMongoIdentifier, new Mongo(server), "test")
+	MongoUrl.defineDb(DefaultMongoIdentifier, "mongodb://127.0.0.1:27017/cookbook")
+	
+	// MongoDb authentication
+	//MongDB.defineDbAuth(DefaultMongoIdentifier, new Mongo(server), "test", "username", "password")
+	
     // Build SiteMap
     def sitemap = SiteMap(
       Menu.i("Home") / "index" >> User.AddUserMenusAfter, // the simple way to declare a menu
@@ -88,4 +99,20 @@ class Boot {
     // Make a transaction span the whole HTTP request
     S.addAround(DB.buildLoanWrapper)
   }
+  
 }
+
+object MongoUrl {
+	def defineDb(id: MongoIdentifier, url: String) {
+
+    val uri = new URI(url)
+
+    val db = uri.getPath drop 1
+    val server = new Mongo(new ServerAddress(uri.getHost, uri.getPort))
+
+    Option(uri.getUserInfo).map(_.split(":")) match {
+      case Some(Array(user,pass)) => MongoDB.defineDbAuth(id, server, db, user, pass)
+      case _ => MongoDB.defineDb(id, server, db)
+    }
+  }
+ }

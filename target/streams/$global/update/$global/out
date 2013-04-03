@@ -1103,6 +1103,303 @@
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile
+[debug] 	using sbt-chain to resolve net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[info] Resolving net.liftweb#lift-mongodb-record_2.10;2.5-M4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-mongodb-record_2.10;2.5-M4 {compile=[default(compile)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-mongodb-record_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-mongodb-record_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-mongodb-record_2.10;2.5-M4 from releases against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-mongodb-record_2.10;2.5-M4 from releases
+[debug] 	found net.liftweb#lift-mongodb-record_2.10;2.5-M4 in releases
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] 	using sbt-chain to resolve net.liftweb#lift-record_2.10;2.5-M4
+[info] Resolving net.liftweb#lift-record_2.10;2.5-M4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-record_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-record_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-record_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-record_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-record_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-record_2.10;2.5-M4 from releases against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-record_2.10;2.5-M4 from releases
+[debug] 	found net.liftweb#lift-record_2.10;2.5-M4 in releases
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] 	using sbt-chain to resolve net.liftweb#lift-mongodb_2.10;2.5-M4
+[info] Resolving net.liftweb#lift-mongodb_2.10;2.5-M4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-mongodb_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-mongodb_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-mongodb_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-mongodb_2.10;2.5-M4 from releases against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-mongodb_2.10;2.5-M4 from releases
+[debug] 	found net.liftweb#lift-mongodb_2.10;2.5-M4 in releases
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile
+[debug] 	using sbt-chain to resolve net.liftweb#lift-json-ext_2.10;2.5-M4
+[info] Resolving net.liftweb#lift-json-ext_2.10;2.5-M4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-json-ext_2.10;2.5-M4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\ivy-2.5-M4.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.liftweb#lift-json-ext_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\ivy-2.5-M4.xml
+[debug] sbt-chain: module revision found in cache: net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\ivy-2.5-M4.xml
+[debug] 	found ivy file in cache for net.liftweb#lift-json-ext_2.10;2.5-M4 (resolved by releases): C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\ivy-2.5-M4.xml
+[debug] 	local: revision in cache: net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] 	checking net.liftweb#lift-json-ext_2.10;2.5-M4 from releases against [none]
+[debug] 	module revision kept as first found: net.liftweb#lift-json-ext_2.10;2.5-M4 from releases
+[debug] 	found net.liftweb#lift-json-ext_2.10;2.5-M4 in releases
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.mongodb#mongo-java-driver;2.10.1
+[info] Resolving org.mongodb#mongo-java-driver;2.10.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] No entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-2.10.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.mongodb#mongo-java-driver;2.10.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-2.10.1.xml
+[debug] sbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.10.1
+[debug] Entry is found in the ModuleDescriptorCache : C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-2.10.1.xml
+[debug] 	found ivy file in cache for org.mongodb#mongo-java-driver;2.10.1 (resolved by sbt-chain): C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-2.10.1.xml
+[debug] 	local: revision in cache: org.mongodb#mongo-java-driver;2.10.1
+[debug] 	checking org.mongodb#mongo-java-driver;2.10.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.mongodb#mongo-java-driver;2.10.1 from sbt-chain
+[debug] 	found org.mongodb#mongo-java-driver;2.10.1 in sbt-chain
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile
+[debug] compile is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 [runtime]
 [debug] loadData of net.liftweb#lift-2.5-starter-template_2.10;0.0.1 of rootConf=runtime
@@ -1849,6 +2146,241 @@
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime
 [debug] runtime is loaded and no conf to load.  Skip loading
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 [test]
@@ -2599,6 +3131,241 @@
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test
 [debug] test is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)]
 [debug] loadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test
@@ -3619,6 +4386,241 @@
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 [optional]
 [debug] loadData of net.liftweb#lift-2.5-starter-template_2.10;0.0.1 of rootConf=compile-internal
 [debug] compile-internal is loaded and no conf to load.  Skip loading
@@ -4374,6 +5376,241 @@
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=runtime-internal
 [debug] runtime-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 [optional]
 [debug] loadData of net.liftweb#lift-2.5-starter-template_2.10;0.0.1 of rootConf=runtime-internal
@@ -5131,6 +6368,241 @@
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->com.h2database#h2;1.3.167 [compile->master]
 [debug] loadData of com.h2database#h2;1.3.167 of rootConf=test-internal
 [debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->default(compile)]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->runtime]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->compile]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->master(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [compile->compile(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->master(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [compile->compile(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->master(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [compile->compile(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->master(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [compile->compile(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test-internal
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->master(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [compile->compile(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-record_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->net.liftweb#lift-proto_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-proto_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->net.liftweb#lift-mongodb_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-mongodb_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-json-ext_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json-ext_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-common_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-common_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->net.liftweb#lift-json_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-json_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->runtime(*)]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->commons-codec#commons-codec;1.6 [runtime->compile]
+[debug] loadData of commons-codec#commons-codec;1.6 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->runtime(*)]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->joda-time#joda-time;2.1 [runtime->compile]
+[debug] loadData of joda-time#joda-time;2.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->runtime(*)]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-json-ext_2.10;2.5-M4->org.joda#joda-convert;1.2 [runtime->compile]
+[debug] loadData of org.joda#joda-convert;1.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->runtime(*)]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->net.liftweb#lift-util_2.10;2.5-M4 [runtime->compile]
+[debug] loadData of net.liftweb#lift-util_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->runtime(*)]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb_2.10;2.5-M4->org.mongodb#mongo-java-driver;2.10.1 [runtime->compile]
+[debug] loadData of org.mongodb#mongo-java-driver;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->runtime(*)]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.specs2#specs2_2.10;1.12.3 [runtime->compile]
+[debug] loadData of org.specs2#specs2_2.10;1.12.3 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-mongodb-record_2.10;2.5-M4->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->net.liftweb#lift-mongodb-record_2.10;2.5-M4 [compile->master]
+[debug] loadData of net.liftweb#lift-mongodb-record_2.10;2.5-M4 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->default(compile)]
 [debug] loadData of org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 of rootConf=test-internal
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [test->runtime]
@@ -5435,7 +6907,7 @@
 [debug] == resolving dependencies net.liftweb#lift-2.5-starter-template_2.10;0.0.1->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master]
 [debug] loadData of org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 of rootConf=container
 [debug] container is loaded and no conf to load.  Skip loading
-[debug] Nbr of module to sort : 41
+[debug] Nbr of module to sort : 46
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5541,6 +7013,31 @@
 [debug] Sort done for : ch.qos.logback#logback-classic;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
 [debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
 [debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
 [debug] Module descriptor is processed : commons-fileupload#commons-fileupload;1.2.2
@@ -5566,6 +7063,10 @@
 [debug] Module descriptor is processed : commons-httpclient#commons-httpclient;3.1
 [debug] Module descriptor is processed : commons-logging#commons-logging;1.0.4
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4
@@ -5631,6 +7132,7 @@
 [debug] 	[NOT REQUIRED] net.liftmodules#lift-jquery-module_2.10;2.5-M4-2.1!lift-jquery-module_2.10.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.6!logback-classic.jar
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.3.167!h2.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-mongodb-record_2.10;2.5-M4!lift-mongodb-record_2.10.jar
 [debug] 	[NOT REQUIRED] net.liftweb#lift-util_2.10;2.5-M4!lift-util_2.10.jar
 [debug] 	[NOT REQUIRED] org.specs2#specs2_2.10;1.12.3!specs2_2.10.jar
 [debug] 	[NOT REQUIRED] commons-fileupload#commons-fileupload;1.2.2!commons-fileupload.jar
@@ -5667,6 +7169,10 @@
 [debug] 	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.6!logback-core.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-record_2.10;2.5-M4!lift-record_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-mongodb_2.10;2.5-M4!lift-mongodb_2.10.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-json-ext_2.10;2.5-M4!lift-json-ext_2.10.jar
+[debug] 	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.10.1!mongo-java-driver.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.7.v20120910!jetty-webapp.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.7.v20120910!jetty-xml.jar
@@ -5677,8 +7183,8 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.7.v20120910!jetty-continuation.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar
-[debug] :: resolution report :: resolve 3464ms :: artifacts dl 251ms
-[debug] Nbr of module to sort : 31
+[debug] :: resolution report :: resolve 4601ms :: artifacts dl 305ms
+[debug] Nbr of module to sort : 36
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5809,8 +7315,37 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] Nbr of module to sort : 36
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -5941,8 +7476,37 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-resolved.xml
-[debug] Nbr of module to sort : 41
+[debug] Nbr of module to sort : 46
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6073,6 +7637,35 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4
@@ -6112,7 +7705,7 @@
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 provided produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\provided-resolved.xml
 [debug] Nbr of module to sort : 0
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 optional produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\optional-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] Nbr of module to sort : 36
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6243,8 +7836,37 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 compile-internal produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\compile-internal-resolved.xml
-[debug] Nbr of module to sort : 31
+[debug] Nbr of module to sort : 36
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6375,8 +7997,37 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 runtime-internal produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\runtime-internal-resolved.xml
-[debug] Nbr of module to sort : 41
+[debug] Nbr of module to sort : 46
 [debug] Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
 [debug] Sort done for : org.scala-lang#scala-library;2.10.0
 [debug] Sort dependencies of : net.liftweb#lift-webkit_2.10;2.5-M4 / Number of dependencies = 10
@@ -6507,6 +8158,35 @@
 [debug] Module descriptor is processed : ch.qos.logback#logback-core;1.0.6
 [debug] Sort dependencies of : com.h2database#h2;1.3.167 / Number of dependencies = 0
 [debug] Sort done for : com.h2database#h2;1.3.167
+[debug] Sort dependencies of : net.liftweb#lift-mongodb-record_2.10;2.5-M4 / Number of dependencies = 5
+[debug] Sort dependencies of : net.liftweb#lift-record_2.10;2.5-M4 / Number of dependencies = 4
+[debug] Module descriptor is processed : net.liftweb#lift-proto_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Sort dependencies of : net.liftweb#lift-mongodb_2.10;2.5-M4 / Number of dependencies = 6
+[debug] Sort dependencies of : net.liftweb#lift-json-ext_2.10;2.5-M4 / Number of dependencies = 8
+[debug] Module descriptor is processed : net.liftweb#lift-common_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Module descriptor is processed : commons-codec#commons-codec;1.6
+[debug] Module descriptor is processed : joda-time#joda-time;2.1
+[debug] Module descriptor is processed : org.joda#joda-convert;1.2
+[debug] Sort done for : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-util_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort dependencies of : org.mongodb#mongo-java-driver;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.mongodb#mongo-java-driver;2.10.1
+[debug] Sort done for : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : org.specs2#specs2_2.10;1.12.3
+[debug] Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+[debug] Sort done for : net.liftweb#lift-mongodb-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-record_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-mongodb_2.10;2.5-M4
+[debug] Module descriptor is processed : net.liftweb#lift-json-ext_2.10;2.5-M4
+[debug] Module descriptor is processed : org.mongodb#mongo-java-driver;2.10.1
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 / Number of dependencies = 4
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-xml;8.1.7.v20120910 / Number of dependencies = 2
 [debug] Sort dependencies of : org.eclipse.jetty#jetty-util;8.1.7.v20120910 / Number of dependencies = 4
@@ -6585,5 +8265,5 @@
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-http;8.1.7.v20120910
 [debug] Module descriptor is processed : org.eclipse.jetty#jetty-io;8.1.7.v20120910
 [debug] 	report for net.liftweb#lift-2.5-starter-template_2.10;0.0.1 container produced in D:\workplace\Lift\lift_cookbook\target\resolution-cache\reports\net.liftweb-lift-2.5-starter-template_2.10\container-resolved.xml
-[debug] 	resolve done (3464ms resolve - 251ms download)
+[debug] 	resolve done (4601ms resolve - 305ms download)
 [info] Done updating.

@@ -7,10 +7,10 @@
 		revision="0.0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container"
-		date="20130402103505"/>
+		date="20130403171522"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-webapp">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911031310" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911031310" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
 				<metadata-artifact status="no" details="" size="8588" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-webapp\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.7.v20120910/jetty-webapp-8.1.7.v20120910.pom"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test, compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="0.0.1"/>
 				<artifacts>
@@ -21,7 +21,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-servlet">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030853" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030853" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
 				<metadata-artifact status="no" details="" size="8416" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-servlet\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.7.v20120910/jetty-servlet-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -32,7 +32,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-security">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030833" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030833" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
 				<metadata-artifact status="no" details="" size="8312" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-security\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.7.v20120910/jetty-security-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -43,7 +43,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-server">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030755" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030755" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="41">
 				<metadata-artifact status="no" details="" size="8908" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-server\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.7.v20120910/jetty-server-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -54,7 +54,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
 				<metadata-artifact status="no" details="" size="8361" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-http\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.7.v20120910/jetty-http-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -65,7 +65,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="45">
 				<metadata-artifact status="no" details="" size="8223" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-io\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.7.v20120910/jetty-io-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -76,7 +76,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-continuation">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030419" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030419" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
 				<metadata-artifact status="no" details="" size="8317" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-continuation\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.7.v20120910/jetty-continuation-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -87,7 +87,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-xml">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911031248" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911031248" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
 				<metadata-artifact status="no" details="" size="8236" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-xml\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.7.v20120910/jetty-xml-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="default, compile, runtime, master" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<artifacts>
@@ -98,7 +98,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030238" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+			<revision name="8.1.7.v20120910" status="release" pubdate="20120911030238" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
 				<metadata-artifact status="no" details="" size="8592" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty\jetty-util\ivy-8.1.7.v20120910.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.7.v20120910/jetty-util-8.1.7.v20120910.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.1.7.v20120910" rev-constraint-default="8.1.7.v20120910" rev-constraint-dynamic="8.1.7.v20120910" callerrev="8.1.7.v20120910"/>
@@ -110,13 +110,73 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
-			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208034915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208034915" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="42">
 				<metadata-artifact status="no" details="" size="3100" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty.orbit\javax.servlet\ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
 				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="8.1.7.v20120910"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test, compile, runtime" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="0.0.1"/>
 				<artifacts>
 					<artifact name="javax.servlet" type="jar" ext="jar" status="no" details="" size="200387" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.eclipse.jetty.orbit\javax.servlet\jars\javax.servlet-3.0.0.v201112011016.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-mongodb-record_2.10">
+			<revision name="2.5-M4" status="release" pubdate="20130113035557" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mongodb-record_2.10/2.5-M4/lift-mongodb-record_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test, compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="lift-mongodb-record_2.10" type="jar" ext="jar" status="no" details="" size="307773" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb-record_2.10\jars\lift-mongodb-record_2.10-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mongodb-record_2.10/2.5-M4/lift-mongodb-record_2.10-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-mongodb_2.10">
+			<revision name="2.5-M4" status="release" pubdate="20130113034444" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3251" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mongodb_2.10/2.5-M4/lift-mongodb_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-mongodb-record_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="lift-mongodb_2.10" type="jar" ext="jar" status="no" details="" size="152437" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-mongodb_2.10\jars\lift-mongodb_2.10-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-mongodb_2.10/2.5-M4/lift-mongodb_2.10-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="mongo-java-driver">
+			<revision name="2.10.1" status="release" pubdate="20121204034850" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2414" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-mongodb_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="398520" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.10.1.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json-ext_2.10">
+			<revision name="2.5-M4" status="release" pubdate="20130113034156" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3522" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json-ext_2.10/2.5-M4/lift-json-ext_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-mongodb_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="lift-json-ext_2.10" type="jar" ext="jar" status="no" details="" size="90091" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json-ext_2.10\jars\lift-json-ext_2.10-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json-ext_2.10/2.5-M4/lift-json-ext_2.10-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-record_2.10">
+			<revision name="2.5-M4" status="release" pubdate="20130113035528" resolver="releases" artresolver="releases" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2962" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-record_2.10/2.5-M4/lift-record_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-mongodb-record_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="lift-record_2.10" type="jar" ext="jar" status="no" details="" size="495679" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-record_2.10\jars\lift-record_2.10-2.5-M4.jar">
+						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-record_2.10/2.5-M4/lift-record_2.10-2.5-M4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -188,6 +248,7 @@
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2960" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-record_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="lift-proto_2.10" type="jar" ext="jar" status="no" details="" size="243931" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-proto_2.10\jars\lift-proto_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-proto_2.10/2.5-M4/lift-proto_2.10-2.5-M4.jar"/>
@@ -285,6 +346,7 @@
 			<revision name="2.5-M4" status="release" pubdate="20130113034231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4049" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-util_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-util_2.10/2.5-M4/lift-util_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-mongodb_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-testkit_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
@@ -334,6 +396,7 @@
 		<module organisation="commons-codec" name="commons-codec">
 			<revision name="1.6" status="release" pubdate="20111203103826" resolver="public" artresolver="public" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
 				<metadata-artifact status="no" details="" size="7625" time="0" location="C:\Users\tran nguyen\.ivy2\cache\commons-codec\commons-codec\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.5-M4"/>
 				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
 				<artifacts>
@@ -353,6 +416,7 @@
 			<revision name="2.1" status="release" pubdate="20120223002242" resolver="public" artresolver="public" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3332" time="0" location="C:\Users\tran nguyen\.ivy2\cache\joda-time\joda-time\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="570478" time="0" location="C:\Users\tran nguyen\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.1.jar">
@@ -365,6 +429,7 @@
 			<revision name="1.2" status="release" pubdate="20111028035117" resolver="public" artresolver="public" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3148" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.joda\joda-convert\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar">
@@ -377,6 +442,7 @@
 			<revision name="2.5-M4" status="release" pubdate="20130113034047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3102" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-json_2.10/2.5-M4/lift-json_2.10-2.5-M4.pom"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="lift-json_2.10" type="jar" ext="jar" status="no" details="" size="486482" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-json_2.10\jars\lift-json_2.10-2.5-M4.jar">
@@ -447,6 +513,7 @@
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3259" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\ivy-2.5-M4.xml" searched="false" origin-is-local="false" origin-location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.pom"/>
 				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="lift-common_2.10" type="jar" ext="jar" status="no" details="" size="188323" time="0" location="C:\Users\tran nguyen\.ivy2\cache\net.liftweb\lift-common_2.10\jars\lift-common_2.10-2.5-M4.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/net/liftweb/lift-common_2.10/2.5-M4/lift-common_2.10-2.5-M4.jar"/>
@@ -479,13 +546,17 @@
 				<caller organisation="net.liftweb" name="lift-json_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test, compile, runtime" rev="1.12.1" rev-constraint-default="1.12.1" rev-constraint-dynamic="1.12.1" callerrev="0.0.1"/>
 				<caller organisation="net.liftweb" name="lift-testkit_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
-				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
-				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-proto_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
-				<caller organisation="net.liftweb" name="lift-common_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-mongodb-record_2.10" conf="default, compile, runtime, master" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-common_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-mongodb_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-record_2.10" conf="compile, runtime" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
 				<artifacts>
 					<artifact name="specs2_2.10" type="jar" ext="jar" status="no" details="" size="6673069" time="0" location="C:\Users\tran nguyen\.ivy2\cache\org.specs2\specs2_2.10\jars\specs2_2.10-1.12.3.jar">
 						<origin-location is-local="false" location="http://oss.sonatype.org/content/repositories/releases/org/specs2/specs2_2.10/1.12.3/specs2_2.10-1.12.3.jar"/>
@@ -519,16 +590,20 @@
 				<caller organisation="net.liftweb" name="lift-testkit_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-2.5-starter-template_2.10" conf="test, compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.0.1"/>
 				<caller organisation="net.liftweb" name="lift-proto_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-mongodb-record_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-mapper_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-util_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-common_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-mongodb_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftmodules" name="lift-jquery-module_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4-2.1"/>
 				<caller organisation="org.scala-lang" name="scala-actors" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<caller organisation="net.liftweb" name="lift-actor_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<caller organisation="net.liftweb" name="lift-webkit_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="org.specs2" name="specs2-scalaz-core_2.10.0-RC3" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0-RC3" callerrev="6.0.1"/>
+				<caller organisation="net.liftweb" name="lift-json-ext_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="net.liftweb" name="lift-db_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
+				<caller organisation="net.liftweb" name="lift-record_2.10" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.5-M4"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="2.10.0"/>
 				<artifacts>
 				</artifacts>
